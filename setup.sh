@@ -7,7 +7,7 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/anuybazoelk
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -20,25 +20,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ssh"
+akbarvpn="raw.githubusercontent.com/muhammadnoor674/sc/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/sstp"
+akbarvpnn="raw.githubusercontent.com/muhammadnoor674/sc/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/shadowshocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/muhammadnoor674/sc/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -49,9 +49,9 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Facebook : https://m.facebook.com/lis.tio.718"
-echo -e "${NC}${LIGHT}WhatsApp : 081545854516"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/Akbar218"
+echo -e "${NC}${LIGHT}Facebook : https://m.facebook.com/anuybazoelk639"
+echo -e "${NC}${LIGHT}WhatsApp : 085349326511"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/anuybazoelk"
 exit 0
 fi
 rm -f setup.sh
@@ -94,7 +94,7 @@ rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://t.me/Akbar218
+Documentation=https://t.me/anuybazoelk
 
 [Service]
 Type=oneshot
@@ -165,8 +165,8 @@ echo "   - Recode                  : Akbar Maulana" | tee -a log-install.txt
 echo "   - Telegram                : T.me/Akbar218"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : 081545854516"  | tee -a log-install.txt
-echo "   - Facebook                : https://m.facebook.com/lis.tio.718" | tee -a log-install.txt
-echo "----------------------Script Created By Akbar Maulana Project----------------------" | tee -a log-install.txt
+echo "   - Facebook                : https://m.facebook.com/anuybazoelk639" | tee -a log-install.txt
+echo "----------------------Script Created By Anuy Bazoelk----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
